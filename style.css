@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    background-color: #0e0e0e;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+
+    justify-content: space-between;
+    padding: 17px;
+    background-color: #2c2c32;
+
+}
+
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+.title {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.center {
+    display: flex;
+    gap: 28px;
+}
+
+
+.nav-link {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.download {
+    background-color: #0078d4;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.download:hover {
+    background-color: #005a9e;
+
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.button {
+
+    /* max-width: 1200px; */
+    border-radius: 6px;
+    line-height: 1.2;
+    font-size: 38px;
+    color: white;
+
+
+}
+
+.nav-dow {
+    width: 290px;
+    background-color: #2c2c32;
+    color: white;
+    padding: 50px;
+    margin: 20px auto;
+    /* ⭐ THIS LINE */
+    border-radius: 8px;
+}
+
+.nav-dow input {
+    padding: 12px 24px;
+    font-size: 16px;
+
+}
+
+
+.last-nav a {
+    font-size: 12px;
+    color: white;
+
+}
+
+.nav-last {
+    font-size: 11px;
+}
+
+/* THSI CODE CREATED BY CHATGPT */
+/* body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background:
+        repeating-linear-gradient(
+            90deg,
+            rgba(255,255,255,0.06) 0px,
+            rgba(255,255,255,0.06) 1px,
+            transparent 1px,
+            transparent 22px
+        ),
+        repeating-linear-gradient(
+            180deg,
+            rgba(255,255,255,0.04) 0px,
+            rgba(255,255,255,0.04) 1px,
+            transparent 1px,
+            transparent 22px
+        ),
+        radial-gradient(circle at top, #111827, #000000 70%);
+    z-index: 0;
+    pointer-events: none;
+}
+
+
+.navbar,
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+ */
+.text {
+
+    color: #005a9e;
+}
+
+.text-img {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* padding: 24px 5px; */
+}
