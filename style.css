@@ -243,7 +243,7 @@ h1 {
     width: 50px;
     border: 1px solid #050000;
     height: auto;
-    padding: 5px
+    padding: 15px;
 }
 
 .item {
@@ -264,4 +264,20 @@ h1 {
     font-weight: 500;
     line-height: 160%;
     color: #9fb1d1;
+}
+.icons{
+    display: flex;
+}
+
+.search-icon{
+    display: flex;
+    /* font-size: 3px; */
+    font-weight: 480px;
+    /* background-color: red; */
+
+}
+.button{
+    font-size: 16px;
+    color: black;
+
 }
